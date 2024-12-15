@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StellarSavings
+
+StellarSavings is a blockchain-based savings application built on the Stellar network. It's designed to help parents manage and encourage their children's savings habits in a modern, digital-first approach.
+
+## Features
+
+- **Parent Dashboard**: Allows parents to oversee their children's savings, set goals, and manage transfers.
+- **Child Dashboard**: A kid-friendly interface for children to view their savings progress, achievements, and upcoming rewards.
+- **Goal Management**: Set and track savings goals for specific items or events.
+- **Stellar Staking**: Utilize Stellar's blockchain technology to stake funds and earn returns.
+- **Automated Transfers**: Schedule regular transfers from parent to child accounts.
+- **Achievement System**: Gamified savings with levels and achievements to motivate consistent saving habits.
+
+## Technology Stack
+
+- **Frontend**: Next.js 13+ with App Router
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Blockchain**: Stellar Network
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies with `yarn `
+3. Run the development server with `yarn dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `/app`: Next.js 13 app directory
+  - `/dashboard`: Parent dashboard page
+  - `/goals`: Goal management page
+  - `/staking`: Stellar staking page
+  - `/child-dashboard`: Child's dashboard page
+- `/components`: Reusable React components
+- `/public`: Static assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We welcome contributions to StellarSavings! Please read our contributing guidelines before submitting pull requests.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## About Stellar
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Stellar is an open-source network for currencies and payments. Stellar makes it possible to create, send and trade digital representations of all forms of money—dollars, pesos, bitcoin, pretty much anything. It's designed so all the world's financial systems can work together on a single network.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
